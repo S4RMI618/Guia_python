@@ -1,4 +1,5 @@
 def sum_of_divisors(n):
+    
     # Returns the sum of all divisors of n
     result = 0
     for i in range(1, n):
@@ -7,10 +8,12 @@ def sum_of_divisors(n):
     return result
 
 def is_perfect_number(n):
+    
     # Returns True if n is a perfect number
     return sum_of_divisors(n) == n
 
 def get_perfect_number(position):
+    
     # Returns the perfect number at the given position
     current_position = 0
     current_number = 1
